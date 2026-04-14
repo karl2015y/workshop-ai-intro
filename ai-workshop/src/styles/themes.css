@@ -1,0 +1,26 @@
+.s-dark { background: linear-gradient(135deg, var(--dark), var(--dark-soft)); color: #fff; }
+.s-light { background: var(--light); color: var(--dark); }
+.s-cover { background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #2563eb 100%); color: #fff; text-align: center; align-items: center; }
+.s-m1 { background: linear-gradient(135deg, var(--m1), #3b82f6); color: #fff; text-align: center; align-items: center; }
+.s-m2 { background: linear-gradient(135deg, var(--m2), #8b5cf6); color: #fff; text-align: center; align-items: center; }
+.s-m3 { background: linear-gradient(135deg, var(--m3), #34d399); color: #fff; text-align: center; align-items: center; }
+.s-m4 { background: linear-gradient(135deg, var(--m4), #f87171); color: #fff; text-align: center; align-items: center; }
+.s-m5 { background: linear-gradient(135deg, var(--m5), #fbbf24); color: #fff; text-align: center; align-items: center; }
+.s-break { background: linear-gradient(135deg, #1e293b, #334155); color: #fff; text-align: center; align-items: center; }
+.s-end { background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #2563eb 100%); color: #fff; text-align: center; align-items: center; }
+
+.s-cover .sub, .s-end .sub { margin: 0 auto; }
+.s-dark .tag { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.8); }
+.s-dark .card { background: rgba(255,255,255,0.07); box-shadow: none; }
+.s-dark table.t td { background: rgba(255,255,255,0.04); border-bottom-color: rgba(255,255,255,0.07); color: #e2e8f0; }
+.s-dark .code { background: rgba(255,255,255,0.06); }
+.s-dark .cmp-b { background: rgba(239,68,68,0.12); }
+.s-dark .cmp-g { background: rgba(16,185,129,0.12); }
+.s-dark .rc { background: rgba(255,255,255,0.06); box-shadow: none; }
+.s-dark .step { background: rgba(255,255,255,0.06); box-shadow: none; }
+.s-dark .sa { color: var(--accent); }
+.s-dark li::marker { color: var(--accent); }
+.s-dark .pb { background: rgba(245,158,11,0.07); border-color: rgba(245,158,11,0.2); }
+.s-dark .plug { background: rgba(99,102,241,0.1); border-color: rgba(99,102,241,0.2); }
+.s-light .qb { background: rgba(37,99,235,0.04); border-left-color: var(--primary); }
+.s-light .fi { background: rgba(37,99,235,0.06); }

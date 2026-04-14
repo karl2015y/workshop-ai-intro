@@ -1,0 +1,93 @@
+/* Tag */
+.tag { display: inline-block; padding: 5px 14px; border-radius: 100px; font-size: 13px; font-weight: 500; letter-spacing: 1px; margin-bottom: 12px; }
+.t1 { background: rgba(37,99,235,0.12); color: var(--m1); }
+.t2 { background: rgba(124,58,237,0.12); color: var(--m2); }
+.t3 { background: rgba(5,150,105,0.12); color: var(--m3); }
+.t4 { background: rgba(220,38,38,0.12); color: var(--m4); }
+.t5 { background: rgba(217,119,6,0.12); color: var(--m5); }
+.tp { background: rgba(99,102,241,0.12); color: var(--plug); }
+
+/* Grid + Card */
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 16px; width: 100%; }
+.card { background: #fff; border-radius: var(--radius); padding: 24px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); }
+.card h4 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+.card p, .card li { font-size: 16px; line-height: 1.5; }
+
+/* Table */
+table.t { width: 100%; border-collapse: separate; border-spacing: 0; margin-top: 14px; font-size: 16px; border-radius: var(--radius); overflow: hidden; }
+table.t th { background: var(--primary); color: #fff; padding: 10px 16px; text-align: left; font-weight: 600; }
+table.t td { padding: 9px 16px; border-bottom: 1px solid var(--gray-light); background: #fff; }
+table.t tr:last-child td { border-bottom: none; }
+
+/* Code */
+.code { background: var(--dark); color: #e2e8f0; padding: 20px 24px; border-radius: 10px; font-family: 'SF Mono','Fira Code',monospace; font-size: 15px; line-height: 1.6; margin: 12px 0; white-space: pre-wrap; word-break: break-word; }
+.code .hl { color: var(--accent); font-weight: 600; }
+.code .dm { opacity: 0.5; }
+.code .gn { color: #34d399; }
+
+/* Comparison */
+.cmp { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 16px; width: 100%; }
+.cmp-b, .cmp-g { padding: 20px 24px; border-radius: 10px; font-size: 18px; line-height: 1.5; }
+.cmp-b { background: rgba(239,68,68,0.07); border-left: 4px solid var(--danger); }
+.cmp-g { background: rgba(16,185,129,0.07); border-left: 4px solid var(--success); }
+.cmp-l { font-weight: 700; margin-bottom: 6px; font-size: 14px; letter-spacing: 1px; }
+.cmp-b .cmp-l { color: var(--danger); }
+.cmp-g .cmp-l { color: var(--success); }
+
+/* RICE Grid */
+.rice { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; width: 100%; }
+.rc { padding: 20px; border-radius: var(--radius); background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.05); text-align: left; }
+.rc-l { font-size: 36px; font-weight: 900; margin-bottom: 2px; }
+.rc-w { font-size: 15px; font-weight: 500; opacity: 0.6; margin-bottom: 6px; }
+.rc p { font-size: 14px; margin: 0; line-height: 1.5; }
+
+/* Steps */
+.steps { display: flex; gap: 16px; margin-top: 20px; width: 100%; }
+.steps.vertical { flex-direction: column; gap: 8px; }
+.step { flex: 1; text-align: center; padding: 22px 16px; background: #fff; border-radius: var(--radius); box-shadow: 0 4px 20px rgba(0,0,0,0.05); position: relative; }
+.step.inline { text-align: left; display: flex; align-items: center; gap: 14px; padding: 10px 16px; }
+.sn { width: 36px; height: 36px; background: var(--primary); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; margin: 0 auto 8px; }
+.step.inline .sn { flex-shrink: 0; margin: 0; }
+.step h4 { font-size: 18px; margin-bottom: 4px; }
+.step p { font-size: 14px; opacity: 0.7; margin: 0; }
+.sa { position: absolute; right: -18px; top: 50%; transform: translateY(-50%); font-size: 24px; color: var(--primary); z-index: 2; }
+
+/* Quote */
+.qb { background: rgba(255,255,255,0.06); border-left: 4px solid var(--accent); padding: 18px 22px; border-radius: 0 10px 10px 0; margin: 12px 0; font-size: 17px; line-height: 1.6; font-style: italic; }
+
+/* Practice */
+.pb { background: linear-gradient(135deg, rgba(245,158,11,0.07), rgba(245,158,11,0.02)); border: 2px solid rgba(245,158,11,0.25); border-radius: var(--radius); padding: 24px; margin-top: 14px; width: 100%; }
+.pb h4 { color: var(--accent); font-size: 20px; margin-bottom: 8px; }
+.pb p, .pb li { font-size: 17px; }
+
+/* Flow */
+.flow { display: flex; align-items: center; gap: 10px; margin: 16px 0; flex-wrap: wrap; justify-content: center; }
+.fi { background: rgba(255,255,255,0.1); padding: 10px 20px; border-radius: 10px; font-size: 16px; font-weight: 500; }
+.fi.highlight { border: 2px solid var(--m5); background: rgba(217,119,6,0.15); }
+.fa { font-size: 20px; opacity: 0.5; }
+
+/* Plugin Card */
+.plug { background: rgba(99,102,241,0.06); border: 2px solid rgba(99,102,241,0.18); border-radius: var(--radius); padding: 24px; margin-top: 14px; width: 100%; }
+.plug h4 { color: var(--plug); font-size: 20px; margin-bottom: 6px; }
+.plug p, .plug li { font-size: 16px; line-height: 1.5; }
+.plug .url { font-size: 14px; margin-top: 10px; }
+.plug .url a { color: var(--plug); text-decoration: underline; opacity: 0.8; transition: opacity 0.2s; }
+.plug .url a:hover { opacity: 1; }
+
+/* Showcase (案例展示) */
+.showcase { width: 100%; margin-top: 8px; }
+.showcase h4 { font-size: 18px; font-weight: 700; margin-bottom: 8px; color: var(--m4); }
+.sc-body { display: grid; grid-template-columns: 1.2fr 1fr; gap: 16px; align-items: start; }
+.sc-left, .sc-right { min-width: 0; }
+.sc-label { font-size: 12px; font-weight: 600; letter-spacing: 1px; opacity: 0.5; margin-bottom: 4px; }
+.sc-imgs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 4px; }
+.sc-imgs img { height: 56px; border-radius: 6px; object-fit: cover; border: 1px solid rgba(0,0,0,0.08); }
+.sc-prompt { font-size: 12px; line-height: 1.45; background: rgba(0,0,0,0.04); border-radius: 8px; padding: 8px 10px; max-height: 110px; overflow-y: auto; white-space: pre-wrap; word-break: break-word; }
+.sc-right video { width: 100%; max-height: 320px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); object-fit: contain; }
+
+/* Extension Screenshots */
+.ext-imgs { display: flex; gap: 12px; margin-bottom: 14px; overflow: hidden; }
+.ext-imgs img { height: 160px; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 12px rgba(0,0,0,0.1); border: 1px solid rgba(0,0,0,0.06); }
+
+/* Module Cover Number */
+.mcn { font-size: 160px; font-weight: 900; opacity: 0.15; position: absolute; bottom: -20px; right: 60px; line-height: 1; }

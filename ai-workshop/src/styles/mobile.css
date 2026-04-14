@@ -1,0 +1,91 @@
+@media (max-width: 767px) {
+  /* ── Slide Container ── */
+  .slide { padding: 24px 20px; overflow-y: auto; justify-content: flex-start; }
+
+  /* ── Typography ── */
+  h1 { font-size: 28px !important; margin-bottom: 8px; }
+  h2 { font-size: 22px; margin-bottom: 8px; }
+  h3 { font-size: 19px; margin-bottom: 8px; }
+  p { font-size: 15px; }
+  li { font-size: 15px; }
+  .sub { font-size: 16px; }
+
+  /* ── Navigation ── */
+  .nav-hints { display: none; }
+  .slide-counter { font-size: 11px; bottom: 12px; right: 14px; }
+
+  /* ── Module Cover Number ── */
+  .mcn { font-size: 80px; right: 20px; bottom: -10px; }
+
+  /* ── Tag ── */
+  .tag { font-size: 11px; padding: 4px 10px; margin-bottom: 8px; }
+
+  /* ── Grid + Card ── */
+  .grid { gap: 12px; margin-top: 10px; }
+  .card { padding: 16px; }
+  .card h4 { font-size: 16px; margin-bottom: 6px; }
+  .card p, .card li { font-size: 14px; }
+
+  /* ── Table (horizontal scroll) ── */
+  table.t { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; font-size: 13px; margin-top: 10px; }
+  table.t th { padding: 8px 10px; font-size: 12px; }
+  table.t td { padding: 7px 10px; }
+
+  /* ── Code Block ── */
+  .code { padding: 14px 16px; font-size: 13px; margin: 8px 0; }
+
+  /* ── Comparison ── */
+  .cmp { gap: 10px; margin-top: 10px; }
+  .cmp-b, .cmp-g { padding: 14px 16px; font-size: 15px; }
+  .cmp-l { font-size: 12px; }
+
+  /* ── RICE ── */
+  .rice { gap: 10px; margin-top: 10px; }
+  .rc { padding: 14px; }
+  .rc-l { font-size: 28px; }
+  .rc-w { font-size: 13px; }
+  .rc p { font-size: 13px; }
+
+  /* ── Steps ── */
+  .steps { gap: 8px; margin-top: 12px; }
+  .step { padding: 14px 12px; }
+  .step h4 { font-size: 15px; }
+  .step p { font-size: 13px; }
+  .sn { width: 28px; height: 28px; font-size: 13px; }
+
+  /* ── Quote ── */
+  .qb { padding: 12px 16px; font-size: 15px; margin: 8px 0; }
+
+  /* ── Practice ── */
+  .pb { padding: 16px; margin-top: 10px; }
+  .pb h4 { font-size: 17px; }
+  .pb p, .pb li { font-size: 15px; }
+
+  /* ── Flow ── */
+  .fi { padding: 8px 14px; font-size: 14px; }
+  .fa { font-size: 16px; }
+
+  /* ── Plugin Card ── */
+  .plug { padding: 16px; margin-top: 10px; }
+  .plug h4 { font-size: 17px; }
+  .plug p, .plug li { font-size: 14px; }
+
+  /* ── Showcase ── */
+  .sc-body { grid-template-columns: 1fr; }
+  .sc-imgs img { height: 44px; }
+  .sc-prompt { font-size: 11px; max-height: 80px; }
+  .sc-right video { max-height: 200px; }
+  .showcase h4 { font-size: 16px; }
+
+  /* ── Extension Screenshots ── */
+  .ext-imgs { gap: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .ext-imgs img { height: 90px; flex-shrink: 0; }
+
+  /* ── Centered theme slides ── */
+  .s-cover, .s-break, .s-end,
+  .s-m1, .s-m2, .s-m3, .s-m4, .s-m5 { justify-content: center; }
+
+  /* ── Cover & Break overrides (inline style needs !important) ── */
+  .s-cover h1 { font-size: 32px !important; }
+  .s-break p:first-child { font-size: 48px !important; }
+}
