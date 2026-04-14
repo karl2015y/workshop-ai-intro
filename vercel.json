@@ -1,6 +1,6 @@
 {
   "framework": "vite",
-  "buildCommand": "cd ai-workshop && npm install && vue-tsc -b && vite build",
+  "buildCommand": "cd ai-workshop && npm install && npm run build",
   "outputDirectory": "ai-workshop/dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
