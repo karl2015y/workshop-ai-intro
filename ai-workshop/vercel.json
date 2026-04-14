@@ -1,0 +1,5 @@
+{
+  "framework": "vite",
+  "buildCommand": "vue-tsc -b && vite build",
+  "outputDirectory": "dist"
+}
