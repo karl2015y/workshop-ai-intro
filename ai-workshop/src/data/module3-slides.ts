@@ -29,9 +29,11 @@ export const module3Slides: Slide[] = [
         arrows: true,
       }},
       { type: 'code', props: {
-        content: `[公司名] 提供 [產品/服務]，專門服務 [目標客戶]。
-客戶常遇到 [痛點]，我們的解決方案是 [方案]，
-優勢在於 [1. xxx  2. xxx  3. xxx]。`,
+        content: `背景模式股份有限公司（BG Motion）提供 AI 流程導入顧問 + 企業網站建置，
+專門服務 30-100 人中小企業的行政 / 業務 / 行銷主管。
+客戶常遇到「行政工作吃掉一半時間、找不到懂 AI 又懂業務的顧問」，
+我們的解決方案是「兩週內把 Gemini / Claude 接進既有流程」，
+優勢在於：1. 按模組收費不綁長約  2. 結案後教到會  3. 自研模板庫加速導入。`,
         style: { fontSize: '15px', maxWidth: '900px' },
       }},
     ],

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="sq">
+      <rect x="0" y="0" width="200" height="200" rx="34" ry="34"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#sq)">
+    <rect width="200" height="200" fill="#2f3d30"/>
+    <!-- BG wordmark (bold slab) -->
+    <text x="100" y="110" text-anchor="middle"
+          font-family="Impact, 'Arial Black', 'Helvetica Neue', system-ui, sans-serif"
+          font-weight="900" font-size="92" letter-spacing="-2" fill="#ffffff">BG</text>
+    <!-- diagonal slash accents across BG (brand mark) -->
+    <g fill="#2f3d30">
+      <polygon points="58,56 66,56 48,104 40,104"/>
+      <polygon points="138,56 146,56 128,104 120,104"/>
+    </g>
+    <!-- MOTION block -->
+    <rect x="18" y="138" width="164" height="40" rx="4" fill="#ffffff"/>
+    <text x="100" y="167" text-anchor="middle"
+          font-family="Impact, 'Arial Black', 'Helvetica Neue', system-ui, sans-serif"
+          font-weight="900" font-size="28" letter-spacing="6" fill="#2f3d30">MOTION</text>
+  </g>
+</svg>

@@ -20,7 +20,7 @@ export const module1Slides: Slide[] = [
       { type: 'paragraph', props: { html: '因為你給的指令太模糊了。', style: { fontSize: '22px', marginBottom: '20px' } } },
       { type: 'comparison', props: {
         bad: { label: '❌ 模糊指令', body: '<p>「幫我寫一段訊息」</p><p class="dm" style="font-size:15px;margin-top:6px;">→ AI 不知道寫給誰、什麼目的<br>→ 產出四不像的通用內容</p>' },
-        good: { label: '✅ 精準指令', body: '<p>「幫我寫一段 LINE 開發訊息給做餐飲的客戶，推薦食材配送，強調隔日到貨」</p><p class="dm" style="font-size:15px;margin-top:6px;">→ 清楚對象、產品、賣點<br>→ 直接傳出去的訊息</p>' },
+        good: { label: '✅ 精準指令', body: '<p>「幫我寫一段 LINE 開發訊息給中小企業老闆，推薦背景模式的 AI 流程導入顧問，強調兩週內看到成效」</p><p class="dm" style="font-size:15px;margin-top:6px;">→ 清楚對象、產品、賣點<br>→ 直接傳出去的訊息</p>' },
       }},
     ],
   },
@@ -32,10 +32,10 @@ export const module1Slides: Slide[] = [
       { type: 'heading', props: { level: 2, text: 'RICE 框架 — 四個要素讓 AI 變成你的業務助理' } },
       { type: 'rice', props: {
         items: [
-          { letter: 'R', color: 'var(--m1)', word: 'Role 角色', body: '告訴 AI 它是誰，它會用那個角色的專業回答你<br><span style="opacity:.7;">寫開發訊息 →「你是一位有 10 年經驗的業務經理」</span><br><span style="opacity:.7;">寫社群文案 →「你是一位社群行銷文案專家」</span>' },
-          { letter: 'I', color: 'var(--m2)', word: 'Instruction 指令', body: '明確說出你要什麼，<strong>一次一件事</strong><br><span style="color:var(--danger);">❌ 幫我寫訊息還有做一張圖</span><br><span style="color:var(--success);">✅ 請幫我撰寫一段客戶開發訊息</span>' },
-          { letter: 'C', color: 'var(--m3)', word: 'Context 背景', body: '資訊越多，產出越精準<br><span style="opacity:.7;">公司名 / 賣什麼 / 客戶是誰<br>客戶痛點 / 你的獨特賣點</span>' },
-          { letter: 'E', color: 'var(--accent)', word: 'Example 範例', body: '給 AI 一個參考，它就會模仿<br><span style="opacity:.7;">語氣：親切專業，像朋友推薦<br>格式：問候→痛點→方案→行動呼籲<br>長度：150 字以內</span>' },
+          { letter: 'R', color: '#a8c7a3', word: 'Role 角色', body: '告訴 AI 它是誰，它會用那個角色的專業回答你<br><span style="opacity:.7;">寫開發訊息 →「你是一位有 10 年經驗的業務經理」</span><br><span style="opacity:.7;">寫社群文案 →「你是一位社群行銷文案專家」</span>' },
+          { letter: 'I', color: '#e8dfc4', word: 'Instruction 指令', body: '明確說出你要什麼，<strong>一次一件事</strong><br><span style="color:#ff8a7a;">❌ 幫我寫訊息還有做一張圖</span><br><span style="color:#8fd49a;">✅ 請幫我撰寫一段客戶開發訊息</span>' },
+          { letter: 'C', color: '#d4a574', word: 'Context 背景', body: '資訊越多，產出越精準<br><span style="opacity:.7;">公司名 / 賣什麼 / 客戶是誰<br>客戶痛點 / 你的獨特賣點</span>' },
+          { letter: 'E', color: '#c9a961', word: 'Example 範例', body: '給 AI 一個參考，它就會模仿<br><span style="opacity:.7;">語氣：親切專業，像朋友推薦<br>格式：問候→痛點→方案→行動呼籲<br>長度：150 字以內</span>' },
         ],
       }},
     ],
@@ -47,7 +47,7 @@ export const module1Slides: Slide[] = [
       { type: 'tag', props: { text: 'RICE 框架', variant: 't1' } },
       { type: 'heading', props: { level: 2, text: '完整範例' } },
       { type: 'code', props: {
-        content: '<span class="hl">【R】</span>你是一位有 10 年經驗的業務經理，擅長用溫暖但專業的語氣開發新客戶。\n\n<span class="hl">【I】</span>請幫我撰寫一段 LINE 客戶開發訊息。\n\n<span class="hl">【C】</span>\n<span class="dm">-</span> 我的公司：美味食材有限公司\n<span class="dm">-</span> 服務：餐廳食材配送，主打有機蔬菜和進口肉品\n<span class="dm">-</span> 目標客戶：中型餐廳老闆（月營業額 50-200 萬）\n<span class="dm">-</span> 客戶痛點：供應商常缺貨、品質不穩定\n<span class="dm">-</span> 優勢：隔日到貨、品質不滿意免費換貨、滿 3000 免運\n\n<span class="hl">【E】</span>\n<span class="dm">-</span> 語氣：親切專業，像朋友推薦好東西\n<span class="dm">-</span> 格式：問候 → 痛點 → 方案 → 行動呼籲\n<span class="dm">-</span> 長度：150 字以內（適合 LINE 閱讀）',
+        content: '<span class="hl">【R】</span>你是一位有 10 年經驗的業務經理，擅長用溫暖但專業的語氣開發新客戶。\n\n<span class="hl">【I】</span>請幫我撰寫一段 LINE 客戶開發訊息。\n\n<span class="hl">【C】</span>\n<span class="dm">-</span> 我的公司：背景模式股份有限公司（BG Motion）\n<span class="dm">-</span> 服務：AI 流程導入顧問 + 企業網站建置，把 Gemini / Claude 整合進既有工作流\n<span class="dm">-</span> 目標客戶：30-100 人中小企業，行政 / 業務 / 行銷主管\n<span class="dm">-</span> 客戶痛點：行政工作吃掉主管一半時間、找不到懂 AI 又懂業務的顧問\n<span class="dm">-</span> 優勢：兩週內上線、按流程模組收費不綁長約、結案後教到會\n\n<span class="hl">【E】</span>\n<span class="dm">-</span> 語氣：親切專業，像朋友推薦好東西\n<span class="dm">-</span> 格式：問候 → 痛點 → 方案 → 行動呼籲\n<span class="dm">-</span> 長度：150 字以內（適合 LINE 閱讀）',
         style: { fontSize: '15px', maxWidth: '900px' },
       }},
     ],
@@ -77,7 +77,7 @@ export const module1Slides: Slide[] = [
       { type: 'tag', props: { text: '文字生成實戰', variant: 't1' } },
       { type: 'heading', props: { level: 3, text: 'Prompt 模板：LINE 客戶開發訊息' } },
       { type: 'code', props: {
-        content: '你是一位有 10 年經驗的業務經理，擅長用溫暖但專業的語氣開發新客戶。\n\n請幫我撰寫一段 LINE 客戶開發訊息。\n\n背景資訊：\n- 我的公司：<span class="hl">[你的公司名]</span>\n- 我們的產品/服務：<span class="hl">[你賣什麼]</span>\n- 目標客戶：<span class="hl">[客戶是誰，什麼產業]</span>\n- 客戶常見痛點：<span class="hl">[他們遇到什麼問題]</span>\n- 我們的優勢：<span class="hl">[為什麼選你]</span>\n\n要求：\n- 語氣親切專業，不要有推銷感\n- 格式：問候 → 點出痛點 → 介紹方案 → 行動呼籲\n- 長度 150 字以內（適合 LINE 閱讀）',
+        content: '你是一位有 10 年經驗的業務經理，擅長用溫暖但專業的語氣開發新客戶。\n\n請幫我撰寫一段 LINE 客戶開發訊息。\n\n背景資訊：\n- 我的公司：<span class="hl">[你的公司名，例：背景模式 BG Motion]</span>\n- 我們的產品/服務：<span class="hl">[你賣什麼，例：AI 流程導入顧問]</span>\n- 目標客戶：<span class="hl">[客戶是誰，什麼產業]</span>\n- 客戶常見痛點：<span class="hl">[他們遇到什麼問題]</span>\n- 我們的優勢：<span class="hl">[為什麼選你]</span>\n\n要求：\n- 語氣親切專業，不要有推銷感\n- 格式：問候 → 點出痛點 → 介紹方案 → 行動呼籲\n- 長度 150 字以內（適合 LINE 閱讀）',
         style: { fontSize: '15px' },
       }},
     ],

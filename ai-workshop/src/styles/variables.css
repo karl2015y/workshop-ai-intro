@@ -1,18 +1,27 @@
 :root {
-  --primary: #2563eb;
-  --accent: #f59e0b;
-  --dark: #0f172a;
-  --dark-soft: #1e293b;
-  --light: #f8fafc;
-  --gray: #64748b;
-  --gray-light: #e2e8f0;
-  --success: #10b981;
-  --danger: #ef4444;
-  --m1: #2563eb;
-  --m2: #7c3aed;
-  --m3: #059669;
-  --m4: #dc2626;
-  --m5: #d97706;
+  /* BG Motion brand palette */
+  --brand: #2f3d30;
+  --brand-soft: #3f5240;
+  --brand-deep: #1f2a20;
+  --brand-gold: #c9a961;
+
+  --primary: #2f3d30;
+  --accent: #c9a961;
+  --dark: #1f2a20;
+  --dark-soft: #2f3d30;
+  --light: #f5f3ec;
+  --gray: #6b6f5e;
+  --gray-light: #e2e4d8;
+  --success: #4e7a4e;
+  --danger: #b84a3e;
+
+  /* module accents tuned to brand */
+  --m1: #2f3d30;
+  --m2: #4a5d4b;
+  --m3: #5d7a5d;
+  --m4: #8a6b3a;
+  --m5: #c9a961;
+
   --radius: 14px;
-  --plug: #6366f1;
+  --plug: #4a5d4b;
 }

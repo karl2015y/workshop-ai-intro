@@ -29,9 +29,9 @@ export const module2Slides: Slide[] = [
       { type: 'table', props: {
         headers: ['用途', 'Prompt 範例'],
         rows: [
-          ['<strong>FB 貼文</strong>', '「一張正方形的咖啡廳新品宣傳圖，日系清新風格，米白色調，主角是一杯抹茶拿鐵，背景有木質桌面和綠葉，畫質細緻」'],
-          ['<strong>活動海報</strong>', '「一張 16:9 的年終特賣活動海報，紅金配色，喜慶風格，大標題寫年終感恩回饋，底部留白放活動資訊」'],
-          ['<strong>LINE 推播</strong>', '「一張直式的美容課程推廣圖，粉紫色漸層，簡約風格，中間放課程名稱，適合手機閱讀」'],
+          ['<strong>FB 貼文</strong>', '「一張正方形的背景模式 AI 顧問服務宣傳圖，專業科技感，深綠配金色調，主視覺是筆電畫面自動跑出 AI 對話框，搭配細緻木質桌面，畫質細緻」'],
+          ['<strong>活動海報</strong>', '「一張 16:9 的背景模式免費 AI 體驗日海報，深綠金色配色，簡約商務風格，大標題「讓 AI 接手行政，你專心做生意」，底部留白放活動日期」'],
+          ['<strong>LINE 推播</strong>', '「一張直式的背景模式 AI 導入方案推廣圖，森林綠漸層，極簡風格，中間放方案名稱與兩週上線，適合手機閱讀」'],
         ],
       }},
     ],
@@ -97,7 +97,7 @@ export const module2Slides: Slide[] = [
       { type: 'heading', props: { level: 2, text: '✏️ 練習 3-2：用 AI 生成你的名片' } },
       { type: 'practice', props: {
         title: '用 Gemini 設計一張專業名片',
-        body: '<p style="font-size:17px;margin-bottom:10px;">Prompt 範例：</p><div class="code" style="font-size:14px;padding:16px;margin:0 0 12px 0;">幫我設計一張專業名片的正反面，風格簡約專業：<br>\n- 公司名：<span class="hl">[你的公司名]</span><br>\n- 姓名：<span class="hl">[你的名字]</span><br>\n- 職稱：<span class="hl">[你的職稱]</span><br>\n- 電話 / LINE ID / 地址<br>\n- 請放上公司 LOGO（如果有的話）<br>\n- 色調：<span class="hl">[你的品牌色]</span></div><p style="font-size:16px;opacity:.6;">💡 不喜歡可以說「換成燙金風格」「改成深色底」「加入 QR Code」繼續調整</p>',
+        body: '<p style="font-size:17px;margin-bottom:10px;">Prompt 範例（以背景模式為例）：</p><div class="code" style="font-size:14px;padding:16px;margin:0 0 12px 0;">幫我設計一張專業名片的正反面，風格簡約專業：<br>\n- 公司名：<span class="hl">背景模式股份有限公司 BG Motion</span><br>\n- 姓名：<span class="hl">林裕凱 Karl Lin</span><br>\n- 職稱：<span class="hl">技術研發長</span><br>\n- 電話 / LINE ID / 地址<br>\n- 放上公司 LOGO（深綠底白字 BG MOTION）<br>\n- 色調：<span class="hl">深森林綠 + 燙金點綴</span></div><p style="font-size:16px;opacity:.6;">💡 不喜歡可以說「換成燙金風格」「改成深色底」「加入 QR Code」繼續調整</p>',
       }},
     ],
   },
