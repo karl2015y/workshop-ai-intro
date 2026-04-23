@@ -18,21 +18,21 @@ export const introSlides: Slide[] = [
     blocks: [
       { type: 'tag', props: { text: 'SPEAKER · 講者介紹', variant: 't1' } },
       { type: 'html', props: { content: `
-        <div style="display:grid;grid-template-columns:240px 1fr;gap:40px;align-items:center;margin-top:12px;">
-          <div style="display:flex;flex-direction:column;align-items:center;gap:14px;">
-            <img src="/bgmotion-logo.svg" alt="背景模式" style="width:200px;height:200px;border-radius:32px;box-shadow:0 18px 48px rgba(0,0,0,0.45);" />
-            <div style="font-size:13px;letter-spacing:3px;opacity:.55;">BACKGROUND MODE</div>
+        <div class="spk">
+          <div class="spk-logo">
+            <img src="/bgmotion-logo.svg" alt="背景模式" />
+            <div class="spk-logo-label">BACKGROUND MODE</div>
           </div>
-          <div>
-            <div style="font-size:42px;font-weight:800;line-height:1.15;">林裕凱 <span style="opacity:.55;font-size:24px;font-weight:500;">Karl Lin</span></div>
-            <div style="margin-top:10px;font-size:19px;color:var(--accent);">背景模式股份有限公司 · 技術研發長</div>
-            <p style="margin-top:18px;font-size:17px;line-height:1.7;opacity:.85;">深耕軟體工程與技術管理約 10 年，專精技術架構設計、自動化流程優化與 AI 應用整合。結合<strong style="color:#fff;">開發者的邏輯</strong>與<strong style="color:#fff;">創業者的思維</strong>，透過 AI 與自動化技術為企業創造實質價值。</p>
-            <div style="margin-top:18px;display:flex;flex-wrap:wrap;gap:10px;">
-              <span style="padding:6px 12px;background:rgba(201,169,97,0.15);border:1px solid rgba(201,169,97,0.35);border-radius:20px;font-size:13px;">AI 自動化</span>
-              <span style="padding:6px 12px;background:rgba(201,169,97,0.15);border:1px solid rgba(201,169,97,0.35);border-radius:20px;font-size:13px;">Prompt Engineering</span>
-              <span style="padding:6px 12px;background:rgba(201,169,97,0.15);border:1px solid rgba(201,169,97,0.35);border-radius:20px;font-size:13px;">Vue / Nuxt / TypeScript</span>
-              <span style="padding:6px 12px;background:rgba(201,169,97,0.15);border:1px solid rgba(201,169,97,0.35);border-radius:20px;font-size:13px;">GCP · Docker</span>
-              <span style="padding:6px 12px;background:rgba(201,169,97,0.15);border:1px solid rgba(201,169,97,0.35);border-radius:20px;font-size:13px;">Directus Headless CMS</span>
+          <div class="spk-body">
+            <div class="spk-name">林裕凱 <span>Karl Lin</span></div>
+            <div class="spk-title">背景模式股份有限公司 · 技術研發長</div>
+            <p class="spk-desc">深耕軟體工程與技術管理約 10 年，專精技術架構設計、自動化流程優化與 AI 應用整合。結合<strong>開發者的邏輯</strong>與<strong>創業者的思維</strong>，透過 AI 與自動化技術為企業創造實質價值。</p>
+            <div class="spk-tags">
+              <span>AI 自動化</span>
+              <span>Prompt Engineering</span>
+              <span>Vue / Nuxt / TypeScript</span>
+              <span>GCP · Docker</span>
+              <span>Directus Headless CMS</span>
             </div>
           </div>
         </div>

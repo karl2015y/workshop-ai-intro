@@ -134,18 +134,18 @@ export const module2Slides: Slide[] = [
       { type: 'tag', props: { text: 'Images 2.0 實測 · 餐飲海報', variant: 't2' } },
       { type: 'heading', props: { level: 3, text: '實測 1：把便當照片變成海報' } },
       { type: 'html', props: { content: `
-        <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:24px;align-items:center;margin-top:16px;">
-          <div style="text-align:center;">
-            <img src="/cases/gpt/原本便當＋題詞.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
-            <div style="margin-top:10px;font-size:14px;opacity:.6;">原始：便當照片 + 一句題詞</div>
+        <div class="ba">
+          <div class="ba-col">
+            <img src="/cases/gpt/原本便當＋題詞.jpg" alt="便當原圖" />
+            <div class="ba-cap">原始：便當照片 + 一句題詞</div>
           </div>
-          <div style="font-size:42px;color:var(--brand);font-weight:700;">→</div>
-          <div style="text-align:center;">
-            <img src="/cases/gpt/便當海報.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
-            <div style="margin-top:10px;font-size:14px;opacity:.6;">成品：可直接貼 IG / LINE 的完整海報</div>
+          <div class="ba-arrow">→</div>
+          <div class="ba-col">
+            <img src="/cases/gpt/便當海報.jpg" alt="便當海報" />
+            <div class="ba-cap">成品：可直接貼 IG / LINE 的完整海報</div>
           </div>
         </div>
-        <p style="margin-top:18px;font-size:15px;opacity:.7;text-align:center;">中文字排版、留白、色彩層次全在一次指令完成。</p>
+        <p class="ba-note">中文字排版、留白、色彩層次全在一次指令完成。</p>
       `}},
     ],
   },
@@ -156,18 +156,18 @@ export const module2Slides: Slide[] = [
       { type: 'tag', props: { text: 'Images 2.0 實測 · 餐飲海報', variant: 't2' } },
       { type: 'heading', props: { level: 3, text: '實測 2：把咖喱照片變成海報' } },
       { type: 'html', props: { content: `
-        <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:24px;align-items:center;margin-top:16px;">
-          <div style="text-align:center;">
-            <img src="/cases/gpt/原本的咖喱.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
-            <div style="margin-top:10px;font-size:14px;opacity:.6;">原始：手機隨拍的咖喱</div>
+        <div class="ba">
+          <div class="ba-col">
+            <img src="/cases/gpt/原本的咖喱.jpg" alt="咖喱原圖" />
+            <div class="ba-cap">原始：手機隨拍的咖喱</div>
           </div>
-          <div style="font-size:42px;color:var(--brand);font-weight:700;">→</div>
-          <div style="text-align:center;">
-            <img src="/cases/gpt/咖喱海報.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
-            <div style="margin-top:10px;font-size:14px;opacity:.6;">成品：有主標、副標、價格的完整海報</div>
+          <div class="ba-arrow">→</div>
+          <div class="ba-col">
+            <img src="/cases/gpt/咖喱海報.jpg" alt="咖喱海報" />
+            <div class="ba-cap">成品：有主標、副標、價格的完整海報</div>
           </div>
         </div>
-        <p style="margin-top:18px;font-size:15px;opacity:.7;text-align:center;">食材質感保留、標題字位排得恰到好處——這在一年前是設計師才做得到的事。</p>
+        <p class="ba-note">食材質感保留、標題字位排得恰到好處——這在一年前是設計師才做得到的事。</p>
       `}},
     ],
   },
@@ -178,18 +178,18 @@ export const module2Slides: Slide[] = [
       { type: 'tag', props: { text: 'Images 2.0 實測 · 餐飲海報', variant: 't2' } },
       { type: 'heading', props: { level: 3, text: '實測 3：把蛋餅照片變成海報' } },
       { type: 'html', props: { content: `
-        <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:24px;align-items:center;margin-top:16px;">
-          <div style="text-align:center;">
-            <img src="/cases/gpt/原本蛋餅＋題詞.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
-            <div style="margin-top:10px;font-size:14px;opacity:.6;">原始：蛋餅照片 + 題詞文字</div>
+        <div class="ba">
+          <div class="ba-col">
+            <img src="/cases/gpt/原本蛋餅＋題詞.jpg" alt="蛋餅原圖" />
+            <div class="ba-cap">原始：蛋餅照片 + 題詞文字</div>
           </div>
-          <div style="font-size:42px;color:var(--brand);font-weight:700;">→</div>
-          <div style="text-align:center;">
-            <img src="/cases/gpt/蛋餅海報.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
-            <div style="margin-top:10px;font-size:14px;opacity:.6;">成品：社群直出的早午餐海報</div>
+          <div class="ba-arrow">→</div>
+          <div class="ba-col">
+            <img src="/cases/gpt/蛋餅海報.jpg" alt="蛋餅海報" />
+            <div class="ba-cap">成品：社群直出的早午餐海報</div>
           </div>
         </div>
-        <p style="margin-top:18px;font-size:15px;opacity:.7;text-align:center;">同一張照片、同一組指令，AI 連文案版位、色塊層次、留白一次搞定。</p>
+        <p class="ba-note">同一張照片、同一組指令，AI 連文案版位、色塊層次、留白一次搞定。</p>
       `}},
     ],
   },

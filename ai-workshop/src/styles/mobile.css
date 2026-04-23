@@ -88,4 +88,23 @@
   /* ── Cover & Break overrides (inline style needs !important) ── */
   .s-cover h1 { font-size: 32px !important; }
   .s-break p:first-child { font-size: 48px !important; }
+
+  /* ── Speaker Intro ── */
+  .spk { grid-template-columns: 1fr; gap: 16px; margin-top: 6px; }
+  .spk-logo { flex-direction: row; justify-content: flex-start; gap: 12px; }
+  .spk-logo img { width: 72px; height: 72px; border-radius: 16px; box-shadow: 0 8px 22px rgba(0,0,0,0.35); }
+  .spk-logo-label { font-size: 11px; letter-spacing: 2px; }
+  .spk-name { font-size: 26px; }
+  .spk-name span { font-size: 16px; }
+  .spk-title { margin-top: 6px; font-size: 14px; }
+  .spk-desc { margin-top: 10px; font-size: 14px; line-height: 1.55; }
+  .spk-tags { margin-top: 12px; gap: 6px; }
+  .spk-tags span { padding: 4px 9px; font-size: 11px; border-radius: 14px; }
+
+  /* ── Before / After Pair ── */
+  .ba { grid-template-columns: 1fr; gap: 12px; margin-top: 10px; }
+  .ba-col img { max-height: 220px; border-radius: 8px; }
+  .ba-cap { margin-top: 6px; font-size: 12px; }
+  .ba-arrow { font-size: 24px; transform: rotate(90deg); justify-self: center; }
+  .ba-note { margin-top: 10px; font-size: 13px; }
 }

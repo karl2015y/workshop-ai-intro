@@ -91,3 +91,24 @@ table.t tr:last-child td { border-bottom: none; }
 
 /* Module Cover Number */
 .mcn { font-size: 160px; font-weight: 900; opacity: 0.15; position: absolute; bottom: -20px; right: 60px; line-height: 1; }
+
+/* Speaker Intro */
+.spk { display: grid; grid-template-columns: 240px 1fr; gap: 40px; align-items: center; margin-top: 12px; width: 100%; }
+.spk-logo { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.spk-logo img { width: 200px; height: 200px; border-radius: 32px; box-shadow: 0 18px 48px rgba(0,0,0,0.45); }
+.spk-logo-label { font-size: 13px; letter-spacing: 3px; opacity: 0.55; }
+.spk-name { font-size: 42px; font-weight: 800; line-height: 1.15; }
+.spk-name span { opacity: 0.55; font-size: 24px; font-weight: 500; }
+.spk-title { margin-top: 10px; font-size: 19px; color: var(--accent); }
+.spk-desc { margin-top: 18px; font-size: 17px; line-height: 1.7; opacity: 0.85; }
+.spk-desc strong { color: #fff; }
+.spk-tags { margin-top: 18px; display: flex; flex-wrap: wrap; gap: 10px; }
+.spk-tags span { padding: 6px 12px; background: rgba(201,169,97,0.15); border: 1px solid rgba(201,169,97,0.35); border-radius: 20px; font-size: 13px; }
+
+/* Before / After Pair */
+.ba { display: grid; grid-template-columns: 1fr auto 1fr; gap: 24px; align-items: center; margin-top: 16px; width: 100%; }
+.ba-col { text-align: center; min-width: 0; }
+.ba-col img { width: 100%; max-height: 420px; object-fit: contain; border-radius: 12px; box-shadow: 0 10px 32px rgba(0,0,0,0.12); }
+.ba-cap { margin-top: 10px; font-size: 14px; opacity: 0.6; }
+.ba-arrow { font-size: 42px; color: var(--brand); font-weight: 700; }
+.ba-note { margin-top: 18px; font-size: 15px; opacity: 0.7; text-align: center; }
