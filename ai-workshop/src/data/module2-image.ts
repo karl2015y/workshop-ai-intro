@@ -101,6 +101,114 @@ export const module2Slides: Slide[] = [
       }},
     ],
   },
+  // Hot Off the Press: ChatGPT Images 2.0 (2026/04/22)
+  {
+    theme: 'm2',
+    blocks: [
+      { type: 'paragraph', props: { html: 'HOT OFF THE PRESS · 2026 / 04 / 22', style: { fontSize: '15px', letterSpacing: '4px', opacity: '0.7', marginBottom: '16px' } } },
+      { type: 'heading', props: { level: 1, text: 'ChatGPT Images 2.0 來了', style: { fontSize: '62px' } } },
+      { type: 'paragraph', props: { html: '自從 OpenAI 關閉 Sora、上週推出 Codex 之後，今天 Images 2.0 正式發布——<br>超越 Images 1.5，直接與 Nano Banana 2 分庭抗禮', class: 'sub', style: { marginTop: '14px' } } },
+      { type: 'html', props: { content: '<div style="margin-top:28px;display:flex;gap:24px;opacity:.6;font-size:15px;justify-content:center;"><span>🧠 思考模式</span><span>|</span><span>🌏 多語系文字</span><span>|</span><span>🎨 設計品味</span><span>|</span><span>📐 3:1–1:3 比例</span></div>' } },
+    ],
+  },
+  // Four Pillars
+  {
+    theme: 'dark',
+    blocks: [
+      { type: 'tag', props: { text: 'Module 2 — 最新動態', variant: 't2' } },
+      { type: 'heading', props: { level: 2, text: 'Images 2.0 四大亮點' } },
+      { type: 'grid', props: {
+        cards: [
+          { title: '🧠 會思考的畫筆', body: '<p style="opacity:.8;font-size:15px;line-height:1.6;">進入 Thinking Mode 後，模型會先搜尋即時網頁、推理構圖、輸出後自動雙重檢查。<br><strong style="color:#e8dfc4;">一次生成 8 張具角色一致性</strong>的連載漫畫、空間多角度、或整套社群廣告。</p>' },
+          { title: '🌏 多語系文字控制', body: '<p style="opacity:.8;font-size:15px;line-height:1.6;">繁體中文、日韓文已搞定，這次連 <strong style="color:#e8dfc4;">印地文、孟加拉文</strong>都能排版優美。<br>密集資訊（終端機、ASCII、便利貼）都能精準控制——跨國行銷海報直接產出。</p>' },
+          { title: '🎨 有品味的設計意圖', body: '<p style="opacity:.8;font-size:15px;line-height:1.6;">35mm 底片顆粒、漫畫排線、不完美構圖都能重現。<br>Canva 設計策略師實測：要求做青少年化妝品廣告，模型<strong style="color:#e8dfc4;">自主加上「viral on TikTok」標籤</strong>——開始有受眾心理判讀能力。</p>' },
+          { title: '📐 3:1 到 1:3 任意比例', body: '<p style="opacity:.8;font-size:15px;line-height:1.6;">同一品牌指令，<strong style="color:#e8dfc4;">一次產出 Twitter 橫幅 + IG Stories 長圖 + LinkedIn 貼文 + IG feed</strong>——視覺識別全通路一致。<br>複雜科學圖表、步行地圖也處理得很乾淨。</p>' },
+        ],
+      }},
+    ],
+  },
+  // Before / After Case 1: 便當
+  {
+    theme: 'light',
+    blocks: [
+      { type: 'tag', props: { text: 'Images 2.0 實測 · 餐飲海報', variant: 't2' } },
+      { type: 'heading', props: { level: 3, text: '實測 1：把便當照片變成海報' } },
+      { type: 'html', props: { content: `
+        <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:24px;align-items:center;margin-top:16px;">
+          <div style="text-align:center;">
+            <img src="/cases/gpt/原本便當＋題詞.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
+            <div style="margin-top:10px;font-size:14px;opacity:.6;">原始：便當照片 + 一句題詞</div>
+          </div>
+          <div style="font-size:42px;color:var(--brand);font-weight:700;">→</div>
+          <div style="text-align:center;">
+            <img src="/cases/gpt/便當海報.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
+            <div style="margin-top:10px;font-size:14px;opacity:.6;">成品：可直接貼 IG / LINE 的完整海報</div>
+          </div>
+        </div>
+        <p style="margin-top:18px;font-size:15px;opacity:.7;text-align:center;">中文字排版、留白、色彩層次全在一次指令完成。</p>
+      `}},
+    ],
+  },
+  // Before / After Case 2: 咖喱
+  {
+    theme: 'light',
+    blocks: [
+      { type: 'tag', props: { text: 'Images 2.0 實測 · 餐飲海報', variant: 't2' } },
+      { type: 'heading', props: { level: 3, text: '實測 2：把咖喱照片變成海報' } },
+      { type: 'html', props: { content: `
+        <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:24px;align-items:center;margin-top:16px;">
+          <div style="text-align:center;">
+            <img src="/cases/gpt/原本的咖喱.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
+            <div style="margin-top:10px;font-size:14px;opacity:.6;">原始：手機隨拍的咖喱</div>
+          </div>
+          <div style="font-size:42px;color:var(--brand);font-weight:700;">→</div>
+          <div style="text-align:center;">
+            <img src="/cases/gpt/咖喱海報.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
+            <div style="margin-top:10px;font-size:14px;opacity:.6;">成品：有主標、副標、價格的完整海報</div>
+          </div>
+        </div>
+        <p style="margin-top:18px;font-size:15px;opacity:.7;text-align:center;">食材質感保留、標題字位排得恰到好處——這在一年前是設計師才做得到的事。</p>
+      `}},
+    ],
+  },
+  // Before / After Case 3: 蛋餅
+  {
+    theme: 'light',
+    blocks: [
+      { type: 'tag', props: { text: 'Images 2.0 實測 · 餐飲海報', variant: 't2' } },
+      { type: 'heading', props: { level: 3, text: '實測 3：把蛋餅照片變成海報' } },
+      { type: 'html', props: { content: `
+        <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:24px;align-items:center;margin-top:16px;">
+          <div style="text-align:center;">
+            <img src="/cases/gpt/原本蛋餅＋題詞.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
+            <div style="margin-top:10px;font-size:14px;opacity:.6;">原始：蛋餅照片 + 題詞文字</div>
+          </div>
+          <div style="font-size:42px;color:var(--brand);font-weight:700;">→</div>
+          <div style="text-align:center;">
+            <img src="/cases/gpt/蛋餅海報.jpg" style="width:100%;max-height:420px;object-fit:contain;border-radius:12px;box-shadow:0 10px 32px rgba(0,0,0,0.12);" />
+            <div style="margin-top:10px;font-size:14px;opacity:.6;">成品：社群直出的早午餐海報</div>
+          </div>
+        </div>
+        <p style="margin-top:18px;font-size:15px;opacity:.7;text-align:center;">同一張照片、同一組指令，AI 連文案版位、色塊層次、留白一次搞定。</p>
+      `}},
+    ],
+  },
+  // Takeaway
+  {
+    theme: 'dark',
+    blocks: [
+      { type: 'tag', props: { text: 'Module 2 — 對你的意義', variant: 't2' } },
+      { type: 'heading', props: { level: 2, text: '所以，這對背景模式的客戶代表什麼？' } },
+      { type: 'grid', props: {
+        cards: [
+          { title: '行銷素材週產量 ×10', body: '<p style="opacity:.8;font-size:15px;">以前請設計師做一張海報要 1-2 天、幾千塊。現在一位行政人員用 Images 2.0 一小時可以產 10 張，<strong style="color:#e8dfc4;">品質還過得去客戶</strong>。</p>' },
+          { title: '多語系在地化不再卡關', body: '<p style="opacity:.8;font-size:15px;">要做日、韓、東南亞市場的海報？直接讓 AI 排好版面、打好文字——省掉翻譯員 + 設計師兩道工序。</p>' },
+          { title: '全通路視覺一致性', body: '<p style="opacity:.8;font-size:15px;">一次產出 FB 橫幅、IG 方圖、LINE 長圖、LinkedIn 貼文——<strong style="color:#e8dfc4;">不用一張一張改尺寸</strong>，品牌識別自動統一。</p>' },
+          { title: '但你仍然需要 Prompt 心法', body: '<p style="opacity:.8;font-size:15px;">AI 越聰明，<strong style="color:#e8dfc4;">指令越精準的人優勢越大</strong>。這就是為什麼我們第一堂課要先上 RICE 框架——工具會換，心法不會。</p>' },
+        ],
+      }},
+    ],
+  },
   // Voyager Extension
   {
     theme: 'light',

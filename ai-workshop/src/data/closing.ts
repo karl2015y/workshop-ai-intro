@@ -67,7 +67,6 @@ export const closingSlides: Slide[] = [
       { type: 'heading', props: { level: 1, text: '感謝你今天的參與！', style: { fontSize: '52px' } } },
       { type: 'paragraph', props: { html: 'AI 是你的助理，不是你的替代。讓它處理瑣事，你去做最有價值的事。', class: 'sub', style: { fontSize: '26px' } } },
       { type: 'html', props: { content: '<div style="margin-top:20px;font-size:17px;opacity:.7;">講師 · 林裕凱 Karl Lin　｜　背景模式股份有限公司 BG Motion</div>' } },
-      { type: 'html', props: { content: '<div style="margin-top:44px;display:flex;gap:32px;opacity:.55;font-size:16px;justify-content:center;"><span>課後問卷</span><span>|</span><span>YouTube 頻道</span><span>|</span><span>Prompt 模板</span></div>' } },
     ],
   },
 ]
