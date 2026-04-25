@@ -5,8 +5,8 @@ export const introSlides: Slide[] = [
   {
     theme: 'cover',
     blocks: [
-      { type: 'html', props: { content: '<div style="margin-bottom:28px;"><img src="/bgmotion-logo.svg" alt="背景模式 BG Motion" style="width:120px;height:120px;border-radius:24px;box-shadow:0 12px 40px rgba(0,0,0,0.35);" /></div>' } },
-      { type: 'paragraph', props: { html: 'BG MOTION · WORKSHOP', style: { fontSize: '16px', letterSpacing: '4px', opacity: '0.55', marginBottom: '18px' } } },
+      { type: 'html', props: { content: '<div style="margin-bottom:28px;"><img src="/bgmotion-logo.svg" alt="背景模式 BGMotion" style="width:120px;height:120px;border-radius:24px;box-shadow:0 12px 40px rgba(0,0,0,0.35);" /></div>' } },
+      { type: 'paragraph', props: { html: 'BGMOTION · WORKSHOP', style: { fontSize: '16px', letterSpacing: '4px', opacity: '0.55', marginBottom: '18px' } } },
       { type: 'heading', props: { level: 1, text: 'AI 教你賣', style: { fontSize: '72px' } } },
       { type: 'paragraph', props: { html: '讓 AI 處理行政，你專心做生意', class: 'sub', style: { marginTop: '12px' } } },
       { type: 'html', props: { content: '<div style="margin-top:44px;display:flex;gap:28px;opacity:.55;font-size:15px;"><span>3 小時實戰工作坊</span><span>|</span><span>背景模式 × 商會專屬版</span></div>' } },
@@ -21,7 +21,7 @@ export const introSlides: Slide[] = [
         <div class="spk">
           <div class="spk-logo">
             <img src="/bgmotion-logo.svg" alt="背景模式" />
-            <div class="spk-logo-label">BACKGROUND MODE</div>
+            <div class="spk-logo-label">BGMOTION</div>
           </div>
           <div class="spk-body">
             <div class="spk-name">林裕凱 <span>Karl Lin</span></div>

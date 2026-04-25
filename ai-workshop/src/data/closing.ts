@@ -63,10 +63,10 @@ export const closingSlides: Slide[] = [
   {
     theme: 'end',
     blocks: [
-      { type: 'html', props: { content: '<div style="margin-bottom:24px;"><img src="/bgmotion-logo.svg" alt="背景模式 BG Motion" style="width:110px;height:110px;border-radius:22px;box-shadow:0 12px 40px rgba(0,0,0,0.4);" /></div>' } },
+      { type: 'html', props: { content: '<div style="margin-bottom:24px;"><img src="/bgmotion-logo.svg" alt="背景模式 BGMotion" style="width:110px;height:110px;border-radius:22px;box-shadow:0 12px 40px rgba(0,0,0,0.4);" /></div>' } },
       { type: 'heading', props: { level: 1, text: '感謝你今天的參與！', style: { fontSize: '52px' } } },
       { type: 'paragraph', props: { html: 'AI 是你的助理，不是你的替代。讓它處理瑣事，你去做最有價值的事。', class: 'sub', style: { fontSize: '26px' } } },
-      { type: 'html', props: { content: '<div style="margin-top:20px;font-size:17px;opacity:.7;">講師 · 林裕凱 Karl Lin　｜　背景模式股份有限公司 BG Motion</div>' } },
+      { type: 'html', props: { content: '<div style="margin-top:20px;font-size:17px;opacity:.7;">講師 · 林裕凱 Karl Lin　｜　背景模式股份有限公司 BGMotion</div>' } },
     ],
   },
 ]

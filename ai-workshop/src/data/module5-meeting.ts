@@ -60,7 +60,7 @@ export const module5Slides: Slide[] = [
       { type: 'tag', props: { text: 'Module 5 — 實作時間', variant: 't5' } },
       { type: 'heading', props: { level: 2, text: '✏️ 練習6：整理模擬客戶會議' } },
       { type: 'quote', props: {
-        html: '「王總你好，我是背景模式 BG Motion 的 Karl。上次在商會碰到你有提到行政團隊一堆例行報表做不完？」<br>「對，每週 3-4 份報表，光整理就吃掉一個人半天，換系統又怕團隊學不來。」<br>「我們可以先從<strong>一份</strong>報表切入，兩週內把 AI 接上，看到數字再決定要不要繼續。」<br>「兩週就能上線？那費用呢？」<br>「按模組收費，不綁長約。我週五前把提案和報價單 LINE 給你。」<br>「好，先寄過來。對了，你們有做客服訊息自動回覆嗎？」<br>「有，客服是我們主力之一，我把兩個方案都放在提案裡，一起寄給你。」',
+        html: '「王總你好，我是背景模式 BGMotion 的 Karl。上次在商會碰到你有提到行政團隊一堆例行報表做不完？」<br>「對，每週 3-4 份報表，光整理就吃掉一個人半天，換系統又怕團隊學不來。」<br>「我們可以先從<strong>一份</strong>報表切入，兩週內把 AI 接上，看到數字再決定要不要繼續。」<br>「兩週就能上線？那費用呢？」<br>「按模組收費，不綁長約。我週五前把提案和報價單 LINE 給你。」<br>「好，先寄過來。對了，你們有做客服訊息自動回覆嗎？」<br>「有，客服是我們主力之一，我把兩個方案都放在提案裡，一起寄給你。」',
         style: { fontSize: '17px' },
       }},
       { type: 'paragraph', props: { html: '把逐字稿 + Prompt模板貼進 ChatGPT / Gemini', style: { marginTop: '16px', fontSize: '18px' } } },

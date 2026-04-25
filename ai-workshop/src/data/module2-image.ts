@@ -97,7 +97,7 @@ export const module2Slides: Slide[] = [
       { type: 'heading', props: { level: 2, text: '✏️ 練習 3-2：用 AI 生成你的名片' } },
       { type: 'practice', props: {
         title: '用 Gemini 設計一張專業名片',
-        body: '<p style="font-size:17px;margin-bottom:10px;">Prompt 範例（以背景模式為例）：</p><div class="code" style="font-size:14px;padding:16px;margin:0 0 12px 0;">幫我設計一張專業名片的正反面，風格簡約專業：<br>\n- 公司名：<span class="hl">背景模式股份有限公司 BG Motion</span><br>\n- 姓名：<span class="hl">林裕凱 Karl Lin</span><br>\n- 職稱：<span class="hl">技術研發長</span><br>\n- 電話 / LINE ID / 地址<br>\n- 放上公司 LOGO（深綠底白字 BG MOTION）<br>\n- 色調：<span class="hl">深森林綠 + 燙金點綴</span></div><p style="font-size:16px;opacity:.6;">💡 不喜歡可以說「換成燙金風格」「改成深色底」「加入 QR Code」繼續調整</p>',
+        body: '<p style="font-size:17px;margin-bottom:10px;">Prompt 範例（以背景模式為例）：</p><div class="code" style="font-size:14px;padding:16px;margin:0 0 12px 0;">幫我設計一張專業名片的正反面，風格簡約專業：<br>\n- 公司名：<span class="hl">背景模式股份有限公司 BGMotion</span><br>\n- 姓名：<span class="hl">林裕凱 Karl Lin</span><br>\n- 職稱：<span class="hl">技術研發長</span><br>\n- 電話 / LINE ID / 地址<br>\n- 放上公司 LOGO（深綠底白字 BGMOTION）<br>\n- 色調：<span class="hl">深森林綠 + 燙金點綴</span></div><p style="font-size:16px;opacity:.6;">💡 不喜歡可以說「換成燙金風格」「改成深色底」「加入 QR Code」繼續調整</p>',
       }},
     ],
   },

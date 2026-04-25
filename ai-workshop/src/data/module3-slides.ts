@@ -29,7 +29,7 @@ export const module3Slides: Slide[] = [
         arrows: true,
       }},
       { type: 'code', props: {
-        content: `背景模式股份有限公司（BG Motion）提供 AI 流程導入顧問 + 企業網站建置，
+        content: `背景模式股份有限公司（BGMotion）提供 AI 流程導入顧問 + 企業網站建置，
 專門服務 30-100 人中小企業的行政 / 業務 / 行銷主管。
 客戶常遇到「行政工作吃掉一半時間、找不到懂 AI 又懂業務的顧問」，
 我們的解決方案是「兩週內把 Gemini / Claude 接進既有流程」，

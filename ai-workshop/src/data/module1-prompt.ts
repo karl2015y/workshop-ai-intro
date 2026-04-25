@@ -47,7 +47,7 @@ export const module1Slides: Slide[] = [
       { type: 'tag', props: { text: 'RICE 框架', variant: 't1' } },
       { type: 'heading', props: { level: 2, text: '完整範例' } },
       { type: 'code', props: {
-        content: '<span class="hl">【R】</span>你是一位有 10 年經驗的業務經理，擅長用溫暖但專業的語氣開發新客戶。\n\n<span class="hl">【I】</span>請幫我撰寫一段 LINE 客戶開發訊息。\n\n<span class="hl">【C】</span>\n<span class="dm">-</span> 我的公司：背景模式股份有限公司（BG Motion）\n<span class="dm">-</span> 服務：AI 流程導入顧問 + 企業網站建置，把 Gemini / Claude 整合進既有工作流\n<span class="dm">-</span> 目標客戶：30-100 人中小企業，行政 / 業務 / 行銷主管\n<span class="dm">-</span> 客戶痛點：行政工作吃掉主管一半時間、找不到懂 AI 又懂業務的顧問\n<span class="dm">-</span> 優勢：兩週內上線、按流程模組收費不綁長約、結案後教到會\n\n<span class="hl">【E】</span>\n<span class="dm">-</span> 語氣：親切專業，像朋友推薦好東西\n<span class="dm">-</span> 格式：問候 → 痛點 → 方案 → 行動呼籲\n<span class="dm">-</span> 長度：150 字以內（適合 LINE 閱讀）',
+        content: '<span class="hl">【R】</span>你是一位有 10 年經驗的業務經理，擅長用溫暖但專業的語氣開發新客戶。\n\n<span class="hl">【I】</span>請幫我撰寫一段 LINE 客戶開發訊息。\n\n<span class="hl">【C】</span>\n<span class="dm">-</span> 我的公司：背景模式股份有限公司（BGMotion）\n<span class="dm">-</span> 服務：AI 流程導入顧問 + 企業網站建置，把 Gemini / Claude 整合進既有工作流\n<span class="dm">-</span> 目標客戶：30-100 人中小企業，行政 / 業務 / 行銷主管\n<span class="dm">-</span> 客戶痛點：行政工作吃掉主管一半時間、找不到懂 AI 又懂業務的顧問\n<span class="dm">-</span> 優勢：兩週內上線、按流程模組收費不綁長約、結案後教到會\n\n<span class="hl">【E】</span>\n<span class="dm">-</span> 語氣：親切專業，像朋友推薦好東西\n<span class="dm">-</span> 格式：問候 → 痛點 → 方案 → 行動呼籲\n<span class="dm">-</span> 長度：150 字以內（適合 LINE 閱讀）',
         style: { fontSize: '15px', maxWidth: '900px' },
       }},
     ],
@@ -77,7 +77,7 @@ export const module1Slides: Slide[] = [
       { type: 'tag', props: { text: '文字生成實戰', variant: 't1' } },
       { type: 'heading', props: { level: 3, text: 'Prompt 模板：LINE 客戶開發訊息' } },
       { type: 'code', props: {
-        content: '你是一位有 10 年經驗的業務經理，擅長用溫暖但專業的語氣開發新客戶。\n\n請幫我撰寫一段 LINE 客戶開發訊息。\n\n背景資訊：\n- 我的公司：<span class="hl">[你的公司名，例：背景模式 BG Motion]</span>\n- 我們的產品/服務：<span class="hl">[你賣什麼，例：AI 流程導入顧問]</span>\n- 目標客戶：<span class="hl">[客戶是誰，什麼產業]</span>\n- 客戶常見痛點：<span class="hl">[他們遇到什麼問題]</span>\n- 我們的優勢：<span class="hl">[為什麼選你]</span>\n\n要求：\n- 語氣親切專業，不要有推銷感\n- 格式：問候 → 點出痛點 → 介紹方案 → 行動呼籲\n- 長度 150 字以內（適合 LINE 閱讀）',
+        content: '你是一位有 10 年經驗的業務經理，擅長用溫暖但專業的語氣開發新客戶。\n\n請幫我撰寫一段 LINE 客戶開發訊息。\n\n背景資訊：\n- 我的公司：<span class="hl">[你的公司名，例：背景模式 BGMotion]</span>\n- 我們的產品/服務：<span class="hl">[你賣什麼，例：AI 流程導入顧問]</span>\n- 目標客戶：<span class="hl">[客戶是誰，什麼產業]</span>\n- 客戶常見痛點：<span class="hl">[他們遇到什麼問題]</span>\n- 我們的優勢：<span class="hl">[為什麼選你]</span>\n\n要求：\n- 語氣親切專業，不要有推銷感\n- 格式：問候 → 點出痛點 → 介紹方案 → 行動呼籲\n- 長度 150 字以內（適合 LINE 閱讀）',
         style: { fontSize: '15px' },
       }},
     ],

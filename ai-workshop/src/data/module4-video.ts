@@ -90,7 +90,7 @@ export const module4Slides: Slide[] = [
         content: `<span class="hl">場景：</span>明亮的現代辦公室，陽光透過大片落地窗灑入，桌上放著背景模式深綠金色的品牌週邊
 <span class="hl">主體：</span>@圖片1 是背景模式 AI 顧問的筆電畫面，螢幕上有 Gemini / Claude 對話框與流程圖
 <span class="hl">動作：</span>一位行政主管從畫面右側走入，看著筆電露出鬆一口氣的笑容，滑動滑鼠一鍵跑完報表
-<span class="hl">鏡頭：</span>從俯拍慢慢轉為側面平視，最後推到「BG MOTION」logo 特寫
+<span class="hl">鏡頭：</span>從俯拍慢慢轉為側面平視，最後推到「BGMOTION」logo 特寫
 <span class="hl">氛圍：</span>自然光、森林綠+燙金的暖色調、清新專業感、淺景深`,
         style: { fontSize: '15px', maxWidth: '900px' },
       }},
