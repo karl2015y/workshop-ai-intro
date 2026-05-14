@@ -63,10 +63,11 @@ export const closingSlides: Slide[] = [
   {
     theme: 'end',
     blocks: [
-      { type: 'html', props: { content: '<div style="margin-bottom:24px;"><img src="/bgmotion-logo.svg" alt="背景模式 BGMotion" style="width:110px;height:110px;border-radius:22px;box-shadow:0 12px 40px rgba(0,0,0,0.4);" /></div>' } },
-      { type: 'heading', props: { level: 1, text: '感謝你今天的參與！', style: { fontSize: '52px' } } },
-      { type: 'paragraph', props: { html: 'AI 是你的助理，不是你的替代。讓它處理瑣事，你去做最有價值的事。', class: 'sub', style: { fontSize: '26px' } } },
-      { type: 'html', props: { content: '<div style="margin-top:20px;font-size:17px;opacity:.7;">講師 · 林裕凱 Karl Lin　｜　背景模式股份有限公司 BGMotion</div>' } },
+      { type: 'html', props: { content: '<div style="margin-bottom:20px;"><img src="/bgmotion-logo.svg" alt="背景模式 BGMotion" style="width:90px;height:90px;border-radius:18px;box-shadow:0 12px 40px rgba(0,0,0,0.4);" /></div>' } },
+      { type: 'heading', props: { level: 1, text: '感謝你今天的參與！', style: { fontSize: '44px' } } },
+      { type: 'paragraph', props: { html: 'AI 是你的助理，不是你的替代。讓它處理瑣事，你去做最有價值的事。', class: 'sub', style: { fontSize: '22px' } } },
+      { type: 'html', props: { content: '<div style="margin-top:24px;display:flex;flex-direction:column;align-items:center;gap:10px;"><div style="background:#fff;padding:14px;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,0.3);"><img src="/feedback-qr.png" alt="課程回饋 QR Code" style="width:180px;height:180px;display:block;" /></div><div style="font-size:16px;opacity:.85;letter-spacing:1px;">掃描填寫課程回饋 📋</div></div>' } },
+      { type: 'html', props: { content: '<div style="margin-top:18px;font-size:15px;opacity:.7;">講師 · 林裕凱 Karl Lin　｜　背景模式股份有限公司 BGMotion</div>' } },
     ],
   },
 ]
